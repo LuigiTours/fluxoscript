@@ -1,56 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
 }
 
-header, footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
+header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+header h1 {
+  font-size: 2em;
 }
 
-button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
+nav {
+  background-color: #333;
 }
 
-button:hover {
-    background-color: #45a049;
-}
-
-article {
-    margin-bottom: 20px;
-}
-
-footer {
-    margin-top: 20px;
-}
-
-/* Styles pour afficher la liste horizontalement */
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 nav li {
-    margin-right: 20px; /* Espace entre les éléments de la liste */
+  margin: 0 10px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #333; /* Couleur du texte */
-    font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
 }
