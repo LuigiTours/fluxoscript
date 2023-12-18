@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Ajoutez ici les balises d'URL -->
+  <url>
+    <loc>https://luigitours.github.io/fluxoscript/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://luigitours.github.io/fluxoscript/apropos.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://luigitours.github.io/fluxoscript/documentation.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://luigitours.github.io/fluxoscript/installation.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
-<url>
-  <loc>https://luigitours.github.io/fluxoscript/</loc>
-  <changefreq>daily</changefreq>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://luigitours.github.io/fluxoscript/apropos.html</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://luigitours.github.io/fluxoscript/documentation.html</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://luigitours.github.io/fluxoscript/installation.html</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.5</priority>
-</url>
